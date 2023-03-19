@@ -1,0 +1,5 @@
+<h1>Welcome to Blogar!</h1>
+<p class="lead">Write your first Blog today <br> </p>
+<% if user_signed_in?%>
+<%= link_to "All Blogs" , blogs_path %>
+<%end%>
